@@ -1,0 +1,54 @@
+Indicators,Definition,Dataset,Period,Numerator,Denominator,Score Calculation,Score,Trend
+Availability of major surgery (excluding C-section) 2.2,"Definition: Availability of major surgery (excluding C-section)
+											
+Numerator: Number of major surgery (excluding C-section)
+											
+Denominator: 1
+											
+											Result = Marks if available",HMC,Monthly,3275,1,"if available then Score = Marks, else 0",2.200,
+Availability of  minor surgery  0.72,"Availability of  minor surgery
+										
+Numerator: Number of minor surgery
+										
+Denominator: 1
+										
+										Result = Marks if available",HMC,Monthly,6759,1,"if available then Score = Marks, else 0",0.720,
+Availability of PNC  1.28,"Definition: Availability of PNC
+											
+Numerator: Number of PNC services
+											
+Denominator: 1
+											
+											Result = Marks if available",EmONC,Monthly,3075,1,"if available then Score = Marks, else 0",1.280,
+Availability of C-section 0.92,"Definition: NAvailability of C-section
+											
+Numerator: No. of C-section
+											
+Denominator: 1
+											
+											Result = Marks if available",EmONC,Monthly,619,1,"if available then Score = Marks, else 0",0.92,
+Rate of Initiation of breast feeding (within 1hr) at facility for newborn  1.28,"Definition: No. of newborn initiated breastfeeding within 1 hour of birth
+											
+Numerator:No. of newborn initiated breastfeeding within 1 hour of birth
+											
+Denominator: No of live births in the facility
+											
+											Result = Numerator/Denominator",EmONC,Monthly,934,938,Score = Result*Marks,1.275,
+Rate of mobile phone service provided in each month  0,"Definition: The total number of service provided towards clients through emergency medical officer mobile phone.
+											
+Numerator: Total number of service provieded in a month
+											
+Denominator: Expected number of service to be provided in a month
+											
+											Result = Numerator/Denominator",Mobile Phone,Monthly,,45,Score = Result*Marks,0.000,
+Availability of WASH indicators  1,"Definition: Timely completed of total 6 predefined fields for all facility in HRM. (WASH indicators: available of basic improved water supply, running water with soap and basin, wastage seg., ENV cleaning, separate toilet for Male & Female)
+
+                                                        
+Numerator: Number of predefined fields completed
+Datasource: HRM (facility)
+                                                        
+Denominator: 6
+
+                                                        
+                                                        Result = Numerator/Denominator",HRM,Monthly,6,6,Score = Result*Marks,0.800,
+Total,,7.195,,,,,,
